@@ -25,3 +25,18 @@
     https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/
     https://learn.microsoft.com/en-us/training/modules/intro-to-azure-cloud-shell/3-how-azure-cloud-shell-works
 #>
+
+Before you get started with Azure Cloud Shell, you will need a subscription
+setup inside of Azure. I am not going to go over that here, but it's not
+too difficult. You still need one, even if aren't using mounted storage.
+
+Why do you need a subscription? It's going to spin up a tiny VM that is your
+Azure Cloud Shell instance. It is going to use Azure resources and therefore
+Microsoft will make you pay for it.
+
+If you want to mount storage, you can select to do so. Then you can:
+    - Select an existing storage account
+    - We will create a storage account for you
+    - I want to create a storage account.
+
+    
